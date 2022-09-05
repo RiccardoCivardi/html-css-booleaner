@@ -66,6 +66,22 @@ main {
   padding: 0 0 0 40px;
 }
 
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table thead {
+  background-color: #4F9FF7;
+  color: #ffffff;
+}
+
+table .row {
+  background-color: lightblue;
+}
+ table .column {
+  width: 30%
+ }
 
 
 /* /main */
