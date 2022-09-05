@@ -1,6 +1,22 @@
 /* css reset */
-*{
+* {
   box-sizing: border-box;
   margin:0;
   padding:0;
 }
+
+/* heading */
+header {
+  height: 175px;
+  background-image: url('/img/pattern.png');
+  background-color: #4F9FF7;
+}
+
+#logo {
+  width: 250px;
+  height: 100%;;
+  background-image: url('/img/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+/* /heading */
