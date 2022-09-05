@@ -11,6 +11,10 @@ body {
   font-size:20px;
 }
 
+main, footer {
+  padding: 25px 10px;
+}
+
 section {
   margin-bottom: 20px;
 }
@@ -32,10 +36,6 @@ header {
 /* /header */
 
 /* main */
-main {
-  padding: 25px 10px;
-}
-
 .title h1 {
   font-size: 2.5em;
   margin-bottom: 10px;;
@@ -79,9 +79,36 @@ table thead {
 table .row {
   background-color: lightblue;
 }
+
  table .column {
   width: 30%
  }
-
-
 /* /main */
+
+/* footer */
+footer h3 {
+  color: grey;
+  margin-bottom: 15px;
+
+}
+
+footer .other{
+  width: 350px;
+  height: 250px;
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+footer .other-first {
+  background-image: url('/img/monitor.jpg');
+}
+
+footer .other-second {
+  background-image: url('/img/graph.jpg');
+}
