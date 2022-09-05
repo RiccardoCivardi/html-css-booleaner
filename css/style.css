@@ -11,6 +11,10 @@ body {
   font-size:20px;
 }
 
+section {
+  margin-bottom: 20px;
+}
+
 /* header */
 header {
   height: 175px;
@@ -50,12 +54,16 @@ main {
   font-size: 0.75em;
 }
 
-.images {
-  margin: 20px 0;
-}
-
 .images p{
   font-size: 0.5em;
+}
+
+.paragraph > p > span {
+  background-color: yellow;
+}
+
+.list ul {
+  padding: 0 0 0 40px;
 }
 
 
