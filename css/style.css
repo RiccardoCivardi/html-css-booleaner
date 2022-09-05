@@ -50,6 +50,14 @@ main {
   font-size: 0.75em;
 }
 
+.images {
+  margin: 20px 0;
+}
+
+.images p{
+  font-size: 0.5em;
+}
+
 
 
 /* /main */
