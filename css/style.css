@@ -11,41 +11,50 @@ body {
   font-size:20px;
 }
 
+.container {
+  width:90%;
+  max-width: 900;
+  margin: 0 auto;
+}
+
 main, footer {
   padding: 25px 10px;
 }
 
-section {
+.box {
   margin-bottom: 20px;
 }
 
 /* header */
 header {
-  height: 175px;
-  background-image: url('/img/pattern.png');
+  height: 100px;
+  background-image: url('../img/pattern.png');
   background-color: #4F9FF7;
+  background-size: 400px;
+  padding: 10px; 
 }
 
-#logo {
-  width: 250px;
-  height: 100%;;
-  background-image: url('/img/logo.svg');
-  background-position: center;
-  background-repeat: no-repeat;
+header #logo {
+  margin-top: 10px;
+}
+
+header #logo img {
+  width: 250px; 
 } 
 /* /header */
 
 /* main */
-.title h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;;
-}
-
-.title p {
+.title {
   color: grey;
 }
 
-.title a {
+.title h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.title span {
   text-decoration: none;
   color: #4F9FF7;
 }
@@ -76,12 +85,12 @@ table thead {
   color: #ffffff;
 }
 
-table .row {
+table .odd {
   background-color: lightblue;
 }
 
  table .column {
-  width: 30%
+  width: 25%
  }
 /* /main */
 
@@ -106,9 +115,9 @@ footer .other{
 }
 
 footer .other-first {
-  background-image: url('/img/monitor.jpg');
+  background-image: url('../img/monitor.jpg');
 }
 
 footer .other-second {
-  background-image: url('/img/graph.jpg');
+  background-image: url('../img/graph.jpg');
 }
